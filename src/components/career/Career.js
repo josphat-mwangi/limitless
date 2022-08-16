@@ -23,7 +23,7 @@ const Career = () => {
 
   let sendEmail = async (e) => {
     e.preventDefault();
-    let url = 'http://127.0.0.1:4000/mail'
+    let url = '/mail'
     try{
       await axios({
         method: "POST",
