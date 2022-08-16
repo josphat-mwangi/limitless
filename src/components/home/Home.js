@@ -1,7 +1,8 @@
 import React from 'react'
 import { HomeServiceItems, Companies } from './HomeItems'
 import CountUp from '../counter/Counter' 
-
+import coverImage from '../img/llsh.png'
+import Contact from '../contact/Contact'
 
 
 
@@ -20,7 +21,7 @@ const Home = () => {
                         
                         </div>
                         <div className="mb-16 sm:mb-0 mt-8 sm:mt-0 sm:w-3/5 sm:pl-12">
-                            
+                            <img src={coverImage} alt='activity images' />
                         </div>
                     </main>
                 </div>
@@ -28,6 +29,7 @@ const Home = () => {
         </div>
         <div className="py-16  text-[#23314C]">  
             <div className="container m-auto px-6  md:px-12 xl:px-0">
+                <h2 className="text-center text-4xl text-[#6495ED] font-bold leading-none tracking-wide mb-4">Our Expertise</h2>
                 <div className="mx-auto grid gap-6 md:w-3/4 lg:w-full lg:grid-cols-3">
                     {HomeServiceItems.map((item, index) =>{
                         return(
@@ -45,7 +47,7 @@ const Home = () => {
                 </div>
             </div>
         </div> 
-        <div classNameName="pb-8 bg-white">
+        <div className="py-10 bg-white">
             <CountUp />
         </div>
         <div className="py-8 text-[#23314C]">  
@@ -77,14 +79,7 @@ const Home = () => {
                 </div>
             </div>
         </div>
-       
-        
-      
-    
-       
-        
-    
-       
+        <Contact />
     </div>
   )
 }
