@@ -26,17 +26,30 @@
 }
 
 .nav-links{
+    display: inline-block;
+    padding-bottom: 0.25rem; 
+    position: relative;
     color: #23314C;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
-.nav-links:hover{
-    background-color: #23314C;
-    color: #FFFF;
-    border-radius: 4px;
-    transition: all 0.2s ease-out;
+.nav-links::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #6495ED ;
+    transition: width 0.25s ease-out;
 }
+
+.nav-links:hover::before {
+    width: 100%;
+}
+
+
 
 .fa-bars{
     color: #23314C;
