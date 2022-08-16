@@ -1,10 +1,12 @@
-import brandprotection from '../img/brandprotection.jpeg'
-import riskanalysis from '../img/risk.jpeg'
-import backgroundcheck from '../img/backgroundcheck.jpeg'
-import canine from '../img/k-9services3.jpg'
-import litigation from '../img/litigation.jpeg'
-import sconsultancy from '../img/sconsultancy.jpeg'
-import pinvestigation from '../img/pinvestigation.jpeg'
+import brandprotection  from '../img/brandprotection.jpeg'
+import riskanalysis     from '../img/risk.jpeg'
+import backgroundcheck  from '../img/backgroundcheck.jpeg'
+import canine           from '../img/k-9services3.jpg'
+import litigation       from '../img/litigation.jpeg'
+import sconsultancy     from '../img/sconsultancy.jpeg'
+import pinvestigation   from '../img/pinvestigation.jpeg'
+import cot              from '../img/WhatsApp Image 2022-07-31 at 10.20.15 PM.png'
+import guard            from '../img/guard.jpeg'
 
 export const ServiceItems =[
     {
@@ -26,7 +28,7 @@ export const ServiceItems =[
     },
     {
         title: 'Man Guarding',
-        img: '',
+        img: guard,
         explanation1: 'The effective utilisation of trained, competent and compliant asset protection officers that add value not only to a site’s security program, but also to the client’s brand is key to any risk management plan. With off-site management support, electronic management tools and site specific SOP-based training, Limitless Guarding embodies these skills and values.',
         explanation2: 'Guarding servicess',
         features:[
@@ -45,7 +47,7 @@ export const ServiceItems =[
     },
     {
         title: 'Cash in Transit',
-        img: '',
+        img: cot,
         explanation1: 'Our end-to-end approach to cash handling, allows us to manage your cash throughout the entire cash cycle – from your deposit in the cash vault to the bank, including the Cash-in-Transit (CIT) logistics, providing you with an immediate risk transfer.',
         explanation2: "With our full end-to-end cash management contract, we assume full responsibility of managing the CIT service on your behalf.",
         features:[
