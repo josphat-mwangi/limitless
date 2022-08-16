@@ -3,31 +3,18 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>  
-        <footer className="text-center text-white bg-[#f1f1f1]">
-            <div className="container m-auto pt-9">
-                <div className="flex items-center justify-center mb-9">
+        <footer className="text-center text-white bg-[#f1f1f1] right-0 left-0  bottom-0 fixed ">
+            <div className="container mx-auto py-5">
+                <div className="flex items-center justify-center">
                     
                     <a href="#!" target='_blank'  rel="noreferrer" className="mr-9 text-[#23314C]">
-                        <svg
-                        aria-hidden="true"
-                        focusable="false"
-                        data-prefix="fab"
-                        data-icon="facebook-f"
-                        className="svg-inline--fa fa-facebook-f w-2.5"
-                        role="img"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 320 512"
-                        >
-                        <path
-                            fill="currentColor"
-                            d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
-                        ></path>
+                        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
+                        className="svg-inline--fa fa-facebook-f w-2.5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                            <path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path>
                         </svg>
                     </a>
                     <a target='_blank'  rel="noreferrer" href="https://twitter.com/Limitless_Ke?t=ZmSvOpGgD7De00y5XC2-vA&s=08" className="mr-9 text-[#23314C]" >
-                        <svg
-                        aria-hidden="true"
-                        focusable="false"
+                        <svg aria-hidden="true" focusable="false"
                         data-prefix="fab"
                         data-icon="twitter"
                         className="svg-inline--fa fa-twitter w-4"
@@ -80,7 +67,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="text-center text-[#FFFF] p-4 bg-[#6495ED]">
+            <div className="text-center text-[#FFFF] p-3 bg-[#6495ED]">
                 © 2022 Copyright: Limitless Security Services
                 
             </div>
