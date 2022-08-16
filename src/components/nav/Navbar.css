@@ -51,9 +51,7 @@
 
 
 
-.fa-bars{
-    color: #23314C;
-}
+
 
 .menu-icon{
     display: none;
@@ -110,9 +108,6 @@
         font-size: 1.8rem;
         cursor: pointer;
     }
-    .fa-times{
-        color: #23314C;
-        font-size:  2rem;
-    }
+  
     
 }

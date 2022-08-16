@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import { MenuItems } from './MenuItem'
 import './Navbar.css'
 import logo from '../img/logo.png'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTimes, faBars } from '@fortawesome/free-solid-svg-icons'
 
 class Navbar extends Component{
    
@@ -15,10 +16,10 @@ class Navbar extends Component{
         return(
             <nav className={ 'NavbarItems drop-shadow-lg'  }>
                 <img src={ logo } className="w-20 h-20 mx-auto"  alt="Logo" height="220" width="220" loading="lazy" />
-               
                 
                 <div className='menu-icon' onClick={this.handleClick}>
-                    <i className={this.state.clicked ? "fa-solid fa-times": 'fa-solid fa-bars'}></i>
+                    {this.state.clicked ? (<FontAwesomeIcon icon={faTimes} />):(<FontAwesomeIcon icon={faBars} />)}
+                    
                 </div>
                 <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
                     {MenuItems.map((item, index) =>{

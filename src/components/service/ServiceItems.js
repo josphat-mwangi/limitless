@@ -5,7 +5,7 @@ import canine           from '../img/k-9services3.jpg'
 import litigation       from '../img/litigation.jpeg'
 import sconsultancy     from '../img/sconsultancy.jpeg'
 import pinvestigation   from '../img/pinvestigation.jpeg'
-import cot              from '../img/WhatsApp Image 2022-07-31 at 10.20.15 PM.png'
+import cot              from '../img/cot-removebg-preview.png'
 import guard            from '../img/guard.jpeg'
 
 export const ServiceItems =[
